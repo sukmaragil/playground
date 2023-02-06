@@ -1,1 +1,20 @@
 .DS_Store
+
+# ------------------------- Cypress ignore git -------------------------
+# Logs
+cypress-demo/logs
+cypress-demo/*.log
+
+# Runtime data
+cypress-demo/pids
+cypress-demo/*.pid
+cypress-demo/*.seed
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+cypress-demo/build/Release
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+cypress-demo/node_modules
+cypress-demo/cypress/videos
+cypress-demo/cypress/screenshots
