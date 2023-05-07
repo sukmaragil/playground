@@ -10,7 +10,7 @@ describe('Demo Site guru99 - User Sign In', () => {
     cy.get('#password').type('IamAPirate')
 
     // ignore uncaught:exception
-    Cypress.on('uncaught:exception', (err, runnable) => {
+    Cypress.on('uncaught:exception', () => {
         // returning false here prevents Cypress from
         // failing the test
         return false
@@ -18,5 +18,8 @@ describe('Demo Site guru99 - User Sign In', () => {
     
     // Submit
     cy.get('[name="submit"]').click()
+
+    // Verify logged in
+    cy.get('h4').should('have.text', 'sparrwo@email.com')
     });
   });

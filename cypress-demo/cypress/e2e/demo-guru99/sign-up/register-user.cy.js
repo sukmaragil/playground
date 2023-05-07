@@ -34,7 +34,7 @@ describe('Demo Site guru99 - User Sign Up', () => {
     cy.get('#user_user_detail_attributes_password_confirmation').type('IamAPirate')
     
     // ignore uncaught:exception
-    Cypress.on('uncaught:exception', (err, runnable) => {
+    Cypress.on('uncaught:exception', () => {
         // returning false here prevents Cypress from
         // failing the test
         return false
