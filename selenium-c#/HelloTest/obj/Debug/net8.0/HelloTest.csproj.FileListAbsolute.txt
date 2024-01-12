@@ -109,3 +109,8 @@
 /Users/amaliya.pristiyanto/Documents/Project/playground/selenium-c#/HelloTest/obj/Debug/net8.0/HelloTest.pdb
 /Users/amaliya.pristiyanto/Documents/Project/playground/selenium-c#/HelloTest/obj/Debug/net8.0/HelloTest.genruntimeconfig.cache
 /Users/amaliya.pristiyanto/Documents/Project/playground/selenium-c#/HelloTest/obj/Debug/net8.0/ref/HelloTest.dll
+/Users/amaliya.pristiyanto/Documents/Project/playground/selenium-c#/HelloTest/bin/Debug/net8.0/selenium-manager/linux/selenium-manager
+/Users/amaliya.pristiyanto/Documents/Project/playground/selenium-c#/HelloTest/bin/Debug/net8.0/selenium-manager/macos/selenium-manager
+/Users/amaliya.pristiyanto/Documents/Project/playground/selenium-c#/HelloTest/bin/Debug/net8.0/selenium-manager/windows/selenium-manager.exe
+/Users/amaliya.pristiyanto/Documents/Project/playground/selenium-c#/HelloTest/bin/Debug/net8.0/WebDriver.dll
+/Users/amaliya.pristiyanto/Documents/Project/playground/selenium-c#/HelloTest/bin/Debug/net8.0/WebDriver.Support.dll
