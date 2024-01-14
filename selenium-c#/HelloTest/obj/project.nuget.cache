@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zqfg77tX2m+bqWwb/6JSt77JxHzOjXbMoNUAklj0Ila8DE3c6bHVYWNxBHRzXDEpnmr7fUPpnryARD/BqhvtdQ==",
+  "dgSpecHash": "Zt5Q8XEHgwo3COpgI4Bkgsa/eZdza7B7h1qbBsQqDltgw3LL77ojpVGJ85P6ERhjnRSrzTs2QtxXLUxN00brkA==",
   "success": true,
   "projectFilePath": "/Users/amaliya.pristiyanto/Documents/Project/playground/selenium-c#/HelloTest/HelloTest.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "/Users/amaliya.pristiyanto/.nuget/packages/mstest.testframework/3.0.4/mstest.testframework.3.0.4.nupkg.sha512",
     "/Users/amaliya.pristiyanto/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/amaliya.pristiyanto/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
+    "/Users/amaliya.pristiyanto/.nuget/packages/selenium.support/4.16.2/selenium.support.4.16.2.nupkg.sha512",
     "/Users/amaliya.pristiyanto/.nuget/packages/selenium.webdriver/4.16.2/selenium.webdriver.4.16.2.nupkg.sha512",
     "/Users/amaliya.pristiyanto/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512"
   ],

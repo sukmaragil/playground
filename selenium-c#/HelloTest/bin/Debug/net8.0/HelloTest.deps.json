@@ -11,6 +11,8 @@
           "MSTest.TestAdapter": "3.0.4",
           "MSTest.TestFramework": "3.0.4",
           "Microsoft.NET.Test.Sdk": "17.6.0",
+          "Selenium.Support": "4.16.2",
+          "Selenium.WebDriver": "4.16.2",
           "coverlet.collector": "6.0.0",
           "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions": "14.0.0.0"
         },
@@ -346,6 +348,28 @@
           }
         }
       },
+      "Selenium.Support/4.16.2": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.16.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.16.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
       "System.Reflection.Metadata/1.6.0": {},
       "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions/14.0.0.0": {
         "runtime": {
@@ -425,6 +449,20 @@
       "sha512": "sha512-eaiXkUjC4NPcquGWzAGMXjuxvLwc6XGKMptSyOGQeT0X70BUZObuybJFZLA0OfTdueLd3US23NBPTBb6iF3V1Q==",
       "path": "nuget.frameworks/5.11.0",
       "hashPath": "nuget.frameworks.5.11.0.nupkg.sha512"
+    },
+    "Selenium.Support/4.16.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xxwbDNUFUQyD9p1qsT2mjqQPADJVXYub1Z+6lzIbqLAqzbnIovo/lBQD2te5ly7OI8HZqU0vNDbi9p2Mxtz3NA==",
+      "path": "selenium.support/4.16.2",
+      "hashPath": "selenium.support.4.16.2.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.16.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5BI/v+LpPma+o5ijzy1jDqnbYBBu99UQYPhvZkSBnXY6PoDKLP//aMiX8XODNJHHcRwGXeaxKR61ISO6ejXExA==",
+      "path": "selenium.webdriver/4.16.2",
+      "hashPath": "selenium.webdriver.4.16.2.nupkg.sha512"
     },
     "System.Reflection.Metadata/1.6.0": {
       "type": "package",
