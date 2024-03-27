@@ -18,3 +18,11 @@ cypress-demo/build/Release
 cypress-demo/node_modules
 cypress-demo/cypress/videos
 cypress-demo/cypress/screenshots
+
+# ------------------------- Selenium C# ignore git -------------------------
+selenium-c#/HelloTest/bin
+selenium-c#/HelloTest/obj
+
+# ------------------------- WebDriverIO ignore git -------------------------
+wdio-demo/node_modules
+wdio-demo/allure_results
