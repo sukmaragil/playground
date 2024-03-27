@@ -1,0 +1,3 @@
+# ------------------------- WebDriverIO ignore git -------------------------
+node_modules/
+allure_results/
