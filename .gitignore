@@ -1,5 +1,1 @@
 .DS_Store
-
-# ------------------------- Selenium C# ignore git -------------------------
-selenium-c#/HelloTest/bin
-selenium-c#/HelloTest/obj
