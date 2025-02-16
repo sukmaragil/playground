@@ -1,0 +1,22 @@
+name: Selenium C# Test runner
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  selenium-c#-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Install latest dotnet version
+        uses: actions/setup-dotnet@v4
+      
+      - name: Set up dependency caching
+        uses: actions/caches@v4
+
+      - name: Check dotnet version
+        run: dotnet -v
